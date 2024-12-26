@@ -32,6 +32,11 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground overscroll-none touch-manipulation;
+    -webkit-tap-highlight-color: transparent;
+  }
+  /* Safe area inset padding for mobile devices */
+  .pb-safe-area-inset-bottom {
+    padding-bottom: env(safe-area-inset-bottom);
   }
 }
