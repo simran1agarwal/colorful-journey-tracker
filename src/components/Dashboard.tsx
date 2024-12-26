@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Heart, Dumbbell, Droplet, Calendar, Tooth, Scale } from "lucide-react";
+import { Heart, Dumbbell, Droplet, Calendar, Stethoscope, Scale } from "lucide-react";
 import { TrackerType } from "@/types/tracker";
 import TrackerCard from "./TrackerCard";
 import StreakDisplay from "./StreakDisplay";
@@ -14,7 +14,7 @@ const Dashboard = () => {
     { type: "exercise" as TrackerType, icon: Dumbbell, color: "pastel-green" },
     { type: "skincare" as TrackerType, icon: Droplet, color: "pastel-yellow" },
     { type: "period" as TrackerType, icon: Calendar, color: "pastel-pink" },
-    { type: "oralcare" as TrackerType, icon: Tooth, color: "pastel-purple" },
+    { type: "oralcare" as TrackerType, icon: Stethoscope, color: "pastel-purple" },
     { type: "mood" as TrackerType, icon: Heart, color: "pastel-pink" },
   ];
 
