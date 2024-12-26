@@ -52,13 +52,26 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        // Custom colors
+        // Enhanced pastel colors
         pastel: {
           purple: "#E5DEFF",
           pink: "#FFDEE2",
           green: "#F2FCE2",
           yellow: "#FEF7CD",
           blue: "#D3E4FD",
+          peach: "#FDE1D3",
+          mint: "#E2F6F0",
+          lavender: "#E9E3FF",
+          coral: "#FFE4E1",
+          sage: "#E8F3E2",
+        },
+        // Gradient backgrounds
+        gradient: {
+          purple: "linear-gradient(135deg, #E5DEFF 0%, #D6BCFA 100%)",
+          pink: "linear-gradient(135deg, #FFDEE2 0%, #FFB5C0 100%)",
+          green: "linear-gradient(135deg, #F2FCE2 0%, #D4E9C0 100%)",
+          yellow: "linear-gradient(135deg, #FEF7CD 0%, #FFE5A3 100%)",
+          blue: "linear-gradient(135deg, #D3E4FD 0%, #B2D3FF 100%)",
         },
       },
       keyframes: {
